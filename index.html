@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+		<meta charset="utf-8"/>
+		<title> Portafolio</title>
+		<!--config el html para que acepte el responsive designe-->
+		<!--viewport responsive-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+
+		<link rel="shortcut icon" type="image/png" href="img/favicon.png">
+
+
+		 <!--color de la aplicacion-->
+		 <meta name="theme-color" content="#FB314E"/> 
+		 <!--optimizacion para movil-->
+		 <meta name="MobileOptimized" content="width"/>
+		 <meta name="HandheldFriendly" content="true" />
+
+		 <!--Meta etiquetas pwa para dispositivos de apple-->
+		 <meta name="apple-mobile-web-app-capable" content="yes"/>
+		 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		 <link rel="apple-touch-icon" href="img/favicon.png"/>
+		 <link rel="apple-touch-startup-image"  href="img/favicon.png"/>
+
+		 <!--configuracion general de la PWA (cargar el archivo de configuracion.)-->
+		 <link rel="manifest" href="manifest.json" />	
+
+
+		<link rel="stylesheet" href="css/style.css">
+		<!--jquery-->
+		<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script src="main.js"></script>
+
+</head>
+<body>
+
+	<header id="main-header">
+		<div class="container"> 
+	  <div id="logo">
+	      <h1>Sitio web</h1>
+	  </div>
+
+	  <div id="menu">
+	  	<ul>
+	  		<li>
+	  			<a href="#main-header">Inicio</a>
+	  		</li>
+	  		<li>
+	  			<a href="#services">Servicios</a>
+	  		</li>
+	  		<li>
+	  			<a href="#videos">Videos</a>
+	  		</li>
+	  		<li>
+	  			<a href="#footer">Contacto</a>
+	  		</li>
+	    </ul>
+	    </div> <!--end menu-->
+	</div><!--end container-->
+
+	</header>
+	 <div class="clearfix"></div>
+	<section id="slider">
+		<div class="container">
+			<h2>Desarrollador web </h2>
+		</div>
+    </section>
+
+    <section id="services">
+    	<div class="container">
+	<h2 class="subheader">Servicios</h2>    	
+
+		<div class="service"> 
+			<img src="img/1.png"/>
+			<h3>Desarrollo web</h3>
+			<p>
+				Ofrezco servicios de desarrollo web moderno, con las mejores practicas y tecnologias 
+		    </p>
+		 </div>
+		 	<div class="service"> 
+			<img src="img/2.png"/>
+			<h3>Diseño web</h3>
+			<p>
+				Diseño de sitios y aplicaciones web moderno, limpio y atractivo para tus clientes. 
+		    </p>
+		 </div>
+		 	<div class="service"> 
+			<img src="img/3.png"/>
+			<h3>Mentoría</h3>
+			<p>
+				Puedo ser tu mentor o profesor para enseñarte desarrollo y programacion web.
+		    </p>
+		 </div>
+		</div>
+    </section><!--end servicios-->
+    <div class="clearfix"></div>
+    <section id="videos">
+    	<div class="container">
+    		<h2 class="subheader">Videos sugeridos</h2>
+    		<div class="video">
+    			<video loop="loop" controls="controls" tabindex="0">
+ 				 <source src="pwa.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+ 				 Video tag not supported. Download the video <a href="movie.webm">here</a>.
+				</video>
+    			<p>This Angular 4 tutorial teaches you the fundamentals of Angular and TypeScript.</p>
+    		</div> 
+    		<div class="video">
+    			<iframe width="560" height="315" src="https://www.youtube.com/embed/s_lUd8mhPpQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    			<p>Si tienes interés o estas pensando en aprender desarrollo web desde cero, este vídeo es una explicación de los ejemplos más comunes que podemos encontrar en muchos sitios web. Desde páginas web simples, sitios web dinámicas como blogs, tiendas virtuales, hasta aplicaciones.</p>
+    		</div> 
+    		<div class="video">
+    			<iframe width="560" height="315" src="https://www.youtube.com/embed/5rBlxXHOJh4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    			<p>Las aplicaciones web siguen el modelo cliente/servidor de aplicaciones distribuidas a través de una red de ordenadores.</p>
+    		</div> 
+         </div>
+    </section><!-- Videos-->
+   <div class="clearfix"></div>
+    <footer id="footer">
+    	
+    	<div class="container">
+    		<h2 class="subheader">  Contacto</h2>
+    		<p>Envíame un mensaje en cualquiera de estas redes sociales.</p>
+    		<ul id="networks"> 
+    			<li>
+    				<a href="">
+    					<img src="img/twitter.png" />
+    				</a>
+    			</li>
+    			  <li>
+    				<a href="">
+    					<img src="img/facebook.png" />
+    				</a>
+    			</li>
+    			   <li>
+    				<a href="">
+    					<img src="img/instagram.png" />
+    				</a>
+    			</li>
+    		</ul>
+    		 <div class="clearfix"></div>
+    	</div>
+    </footer>
+	</body>
+
+</html>
